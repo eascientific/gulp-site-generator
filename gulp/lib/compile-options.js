@@ -69,6 +69,14 @@ module.exports = function (rootPath) {
 
                 return downsize(excerpt, truncateOptions);
             },
+            articleUpToFold: function () {
+                var index = this.meta.body.indexOf("<!--fold-->")
+                if(index >= 0){
+                    return downsize(this.meta.body.substring(0,index), {"characters": index});
+                } else {
+                    return this.meta.body
+                }
+            },
             content: function (options) {
                 var truncateOptions = (options || {}).hash || {};
                 truncateOptions = _.pick(truncateOptions, ["words", "characters"]);
