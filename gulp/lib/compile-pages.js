@@ -47,6 +47,7 @@ module.exports = function (rootPath) {
                         title: fileData.title,
                         body: resolvePaths.resolve(fileData.body, ".."),
                         url: "../" + fileData.slug + "/",
+                        categories: fileData.categories,
                         tagStr: fileData.tags,
                         tags: (fileData.tags ? tags.getTagsAsLinks("..", fileData.tags) : undefined),
                         date: fileData.date,
