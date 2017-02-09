@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "3.4.7",
+    "cssnano": "^3.10.0",
     "downsize": "0.0.8",
     "glob": "7.1.1",
     "gulp": "3.9.1",
@@ -37,30 +38,28 @@
     "imagemin-optipng": "4.3.0",
     "imagemin-pngquant": "4.2.0",
     "lodash": "4.17.4",
+    "lost": "^8.0.0",
     "markdown-it": "8.2.2",
     "marked": "0.3.6",
     "minimist": "1.2.0",
     "moment": "2.17.1",
     "mout": "1.0.0",
+    "postcss-cssnext": "^2.9.0",
     "relative": "3.0.2",
     "require-dir": "0.3.1",
-    "rss": "1.2.1"
+    "rss": "1.2.1",
+    "rucksack-css": "^0.9.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "cssnano": "3.10.0",
-    "del": "2.2.2",
-    "eslint": "^3.15.0",
+    "eslint": "3.15.0",
     "github-changes": "1.0.4",
     "gulp-coveralls": "0.1.4",
     "gulp-istanbul": "1.1.1",
     "gulp-mocha": "3.0.1",
     "gulp-postcss": "6.3.0",
-    "lost": "8.0.0",
     "mocha": "3.2.0",
     "mockery": "2.0.0",
-    "postcss-cssnext": "2.9.0",
-    "rucksack-css": "0.9.1",
     "sinon": "1.17.7"
   }
 }
