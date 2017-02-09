@@ -17,7 +17,7 @@ It is similar to other static site generators in that it takes your Markdown con
 	* [cssnext](http://cssnext.io/)
 	* [cssnano](http://cssnano.co/)
 	* [rucksack](https://simplaio.github.io/rucksack/)
-* Css reducing (Uncss)
+	* [Uncss](https://github.com/giakki/uncss)
 * Javascript concatenating and minification
 * Asset copying
 * Image compression

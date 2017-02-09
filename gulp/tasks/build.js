@@ -2,4 +2,4 @@
 
 var gulp = require("gulp");
 
-gulp.task("build", ["minify-html"]);
+gulp.task("build", ["minify-html", "copy-css"]);
