@@ -12,6 +12,11 @@ It is similar to other static site generators in that it takes your Markdown con
 * Convert Markdown files to static HTML
 * [Handlebars](http://handlebarsjs.com) templates and partials
 * Sass compiling and minification
+* Optional [PostCSS](http://http://postcss.org) CSS Tranformation Modules
+	* [LostGrid](http://lostgrid.org/)
+	* [cssnext](http://cssnext.io/)
+	* [cssnano](http://cssnano.co/)
+	* [rucksack](https://simplaio.github.io/rucksack/)
 * Css reducing (Uncss)
 * Javascript concatenating and minification
 * Asset copying
