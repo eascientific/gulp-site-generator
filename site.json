@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "description": "",
+  "title": "This is the Title",
+  "description": "Description you see here is in the site.json file in the root directory.",
   "url": "",
   "rss": "/rss.xml",
   "maxItems": 6,
