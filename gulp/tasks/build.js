@@ -1,5 +1,10 @@
 "use strict";
 
-var gulp = require("gulp");
+var gulp = require("gulp"),
+    runSequence = require('run-sequence');
 
-gulp.task("build", ["minify-html", "copy-css"]);
+gulp.task("build", function(done) {
+    runSequence("minify-html", "sass", "copy-css", "copy-public", function() {
+        done();
+    });
+});
