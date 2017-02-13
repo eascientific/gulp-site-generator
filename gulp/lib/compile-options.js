@@ -31,6 +31,12 @@ module.exports = function (rootPath) {
             return fileData;
         },
         helpers: {
+            isActive: function (slug) {
+                console.log('active')
+                if(this.post)
+                return slug === this.post.meta.slug ;
+                
+            },
             date: function (context, options) {
                 if (!options && context.hasOwnProperty("hash")) {
                     options = context;
