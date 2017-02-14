@@ -76,6 +76,7 @@ module.exports = function (rootPath) {
                         resourcePath: "..",
                         generator: "Gulp " + gulpVersion,
                         meta_title: fileData.title,
+                        authors: siteData.authors,
                         url: "..",
                         site: siteData,
                         post: metaData,
