@@ -19,10 +19,10 @@ gulp.task("livereload-html", function () {
 var _lto = 0;
 gulp.task("livereload-watch", function () {
     gulp.watch(["./src/sass/**/*.scss"], ["sass"]);
-    gulp.watch(["./src/templates/**/*.hbs"], ["build"]);
+    gulp.watch(["./src/templates/**/*.hbs"], ["compile"]);
     gulp.watch(["./src/js/**/*.js"], ["build"]);
     gulp.watch(["./src/images/**/*.{gif,jpg,png}"], ["image-min"]);
-    gulp.watch(["./src/content/**/*.md"], ["content"]);
+    gulp.watch(["./src/content/**/*.md"], ["compile"]);
     gulp.watch(["./build/**/*.*"]).on("change", function (event) {
         gutil.log(gutil.colors.green("-"),event.path.replace(process.cwd(),""), gutil.colors.magenta(event.type));
         clearTimeout(_lto);
