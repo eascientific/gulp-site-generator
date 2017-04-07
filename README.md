@@ -40,13 +40,13 @@ This project is ideal when used as a Git sub-module or installed along-side your
     $ mkdir my-static-site
     $ cd my-static-site
     $ git init
-    $ git submodule add https://github.com/ducksoupdev/gulp-site-generator.git tools
+    $ git submodule add -b master https://github.com/eascientific/gulp-site-generator.git tools
 
 #### Straightforward checkout
 
     $ mkdir my-static-site
     $ cd my-static-site
-    $ git clone https://github.com/ducksoupdev/gulp-site-generator.git tools
+    $ git clone https://github.com/eascientific/gulp-site-generator.git tools
 
 ### Installing the dependencies
 
@@ -83,7 +83,7 @@ So putting it all together, the installation steps are:
     $ mkdir my-static-site
     $ cd my-static-site
     $ git init
-    $ git submodule add https://github.com/ducksoupdev/gulp-site-generator.git tools
+    $ git submodule add -b master https://github.com/eascientific/gulp-site-generator.git tools
     $ npm install -g gulp
     $ node tools/install
     $ npm install
