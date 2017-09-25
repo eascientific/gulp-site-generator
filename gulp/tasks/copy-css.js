@@ -24,7 +24,7 @@ gulp.task("copy-css", function () {
         lost(),
         rucksack(),
         cssnext({browsers: ["last 3 version"]}),
-        uncss(uncssOptions),
+        // uncss(uncssOptions),
         cssnano({autoprefixer: false})
     ];
     return gulp.src(["./src/css/**/*.css"])
